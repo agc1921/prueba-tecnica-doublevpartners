@@ -77,3 +77,13 @@ o
 - **Vitest** – Test unitarios.
 - **TypeScript** – Tipado estático.
 - **Vite** – Bundler y servidor de desarrollo rápido.
+
+## 🏗 Arquitectura del Proyecto
+
+- **`src/`**: Código fuente principal.
+  - **`components/`**: Componentes reutilizables (ej. `PokemonCard.vue`, `InputSearch.vue`, `Loader.vue`).
+  - **`router/`**: Configuración de rutas con `vue-router`.
+  - **`services/`**: Servicios para consumir la API de Pokémon (`PokemonService.ts`).
+  - **`stores/`**: Stores de Pinia para manejo de estado global (lista de Pokémon, detalles, paginación).
+  - **`tests/` o archivos `.spec.ts`**: Pruebas unitarias de componentes principales
+  - **`views/`**: Vistas principales (`HomeView.vue`, `PokemonDetailView.vue`).
