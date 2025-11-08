@@ -19,6 +19,14 @@ cd prueba-tecnica-doublevpartners
 
 ## Instalar dependencias:
 
+<div style="display: flex; gap: 20px;">
+
+<pre><code>npm install</code></pre>
+o
+<pre><code>yarn install</code></pre>
+
+</div>
+
 ```
 npm install
 ```
