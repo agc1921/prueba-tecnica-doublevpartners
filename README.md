@@ -1,4 +1,7 @@
-# prueba_tecnica_double_v_partners
+# prueba tecnica double v partners
+
+### Page: [https://agc1921.github.io/prueba-tecnica-doublevpartners/](https://agc1921.github.io/prueba-tecnica-doublevpartners/)
+
 
 Aplicación Pokédex desarrollada con **Vue 3**, **Pinia** y **Vite**. Permite buscar Pokémon por nombre o ID, explorar la lista de Pokémon y acceder a una vista interna con detalles completos del seleccionado.
 
@@ -27,7 +30,7 @@ npm install
  yarn install
 ```
 
-## Modo desarrollo
+## Modo desarrollo:
 
 ```
 npm run dev
