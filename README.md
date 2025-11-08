@@ -1,6 +1,6 @@
 # prueba_tecnica_double_v_partners
 
-Aplicación Pokédex desarrollada con **Vue 3**, **Pinia** y **Vite**. Permite buscar Pokémon por nombre o ID, navegar entre páginas y ver detalles individuales.
+Aplicación Pokédex desarrollada con **Vue 3**, **Pinia** y **Vite**. Permite buscar Pokémon por nombre o ID, explorar la lista de Pokémon y acceder a una vista interna con detalles completos del seleccionado.
 
 Repositorio: [https://github.com/agc1921/prueba-tecnica-doublevpartners](https://github.com/agc1921/prueba-tecnica-doublevpartners)
 
