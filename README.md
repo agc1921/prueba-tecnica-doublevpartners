@@ -65,7 +65,7 @@ o
  yarn test
 ```
 
-**Librerías y tecnologías principales:**
+## Librerías y tecnologías principales:**
 
 - **Vue 3** – Framework principal de la app.
 - **Pinia** – Gestión de estado global.
