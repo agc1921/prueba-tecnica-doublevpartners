@@ -27,6 +27,18 @@ npm install
  yarn install
 ```
 
+## Modo desarrollo
+
+```
+npm run dev
+```
+
+# o
+
+```
+yarn dev
+```
+
 ## Construir para producción:
 
 ```
