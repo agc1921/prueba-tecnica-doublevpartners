@@ -1,42 +1,58 @@
 # prueba_tecnica_double_v_partners
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación Pokédex desarrollada con **Vue 3**, **Pinia** y **Vite**. Permite buscar Pokémon por nombre o ID, navegar entre páginas y ver detalles individuales.
 
-## Recommended IDE Setup
+Repositorio: [https://github.com/agc1921/prueba-tecnica-doublevpartners](https://github.com/agc1921/prueba-tecnica-doublevpartners)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🛠 Instalación
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+1. Clonar el repositorio:
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+git clone https://github.com/agc1921/prueba-tecnica-doublevpartners.git
+cd prueba-tecnica-doublevpartners
 ```
 
-### Compile and Hot-Reload for Development
+## Instalar dependencias:
 
-```sh
-npm run dev
+```npm install```
+
+# o
+
+```
+ yarn install
 ```
 
-### Type-Check, Compile and Minify for Production
+## Construir para producción:
 
-```sh
-npm run build
+```npm run build```
+
+# o
+
 ```
+ yarn build
+```
+
+## Ejecutar tests unitarios:
+
+```npm run test```
+
+# o
+
+```
+ yarn test
+```
+
+**Librerías y tecnologías principales:**
+
+- **Vue 3** – Framework principal de la app.
+- **Pinia** – Gestión de estado global.
+- **Vue Router** – Navegación SPA.
+- **Axios** – Llamadas HTTP a la API de Pokémon.
+- **Bootstrap 5** – Estilos y componentes UI.
+- **SweetAlert2** – Alertas y notificaciones.
+- **Vitest** – Test unitarios.
+- **TypeScript** – Tipado estático.
+- **Vite** – Bundler y servidor de desarrollo rápido.
