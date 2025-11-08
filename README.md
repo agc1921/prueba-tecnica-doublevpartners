@@ -17,7 +17,9 @@ cd prueba-tecnica-doublevpartners
 
 ## Instalar dependencias:
 
-```npm install```
+```
+npm install
+```
 
 # o
 
@@ -27,7 +29,9 @@ cd prueba-tecnica-doublevpartners
 
 ## Construir para producción:
 
-```npm run build```
+```
+npm run build
+```
 
 # o
 
@@ -37,7 +41,9 @@ cd prueba-tecnica-doublevpartners
 
 ## Ejecutar tests unitarios:
 
-```npm run test```
+```
+npm run test
+```
 
 # o
 
