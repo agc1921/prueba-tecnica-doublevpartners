@@ -29,7 +29,7 @@ o
  yarn install
 ```
 
-## Modo desarrollo:
+## Correr el proyecto:
 
 ```
 npm run dev
