@@ -10,6 +10,8 @@ export default defineConfig({
     // vueDevTools(),
   ],
 
+  base: '/prueba_tecnica_double_v_partners/',
+
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

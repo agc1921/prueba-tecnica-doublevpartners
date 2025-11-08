@@ -2,6 +2,7 @@
   "name": "prueba_tecnica_double_v_partners",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://tu-usuario.github.io/prueba_tecnica_double_v_partners",
   "type": "module",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
@@ -12,7 +13,8 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "test": "vitest"
+    "test": "vitest",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.13.2",
@@ -29,6 +31,7 @@
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/test-utils": "^2.4.0-alpha.2",
     "@vue/tsconfig": "^0.8.1",
+    "gh-pages": "^6.3.0",
     "jsdom": "^27.1.0",
     "npm-run-all2": "^8.0.4",
     "patch-package": "^8.0.1",
