@@ -2,7 +2,6 @@
 
 ### Page: [https://agc1921.github.io/prueba-tecnica-doublevpartners](https://agc1921.github.io/prueba-tecnica-doublevpartners)
 
-
 Aplicación Pokédex desarrollada con **Vue 3**, **Pinia** y **Vite**. Permite buscar Pokémon por nombre o ID, explorar la lista de Pokémon y acceder a una vista interna con detalles completos del seleccionado.
 
 Repositorio: [https://github.com/agc1921/prueba-tecnica-doublevpartners](https://github.com/agc1921/prueba-tecnica-doublevpartners)
@@ -81,9 +80,9 @@ o
 ## 🏗 Arquitectura del Proyecto
 
 - **`src/`**: Código fuente principal.
-  - **`components/`**: Componentes reutilizables (ej. `PokemonCard.vue`, `InputSearch.vue`, `Loader.vue`).
+  - **`components/`**: Componentes reutilizables (`PokemonCard.vue`, `InputSearch.vue`, `Loader.vue`).
   - **`router/`**: Configuración de rutas con `vue-router`.
   - **`services/`**: Servicios para consumir la API de Pokémon (`PokemonService.ts`).
   - **`stores/`**: Stores de Pinia para manejo de estado global (lista de Pokémon, detalles, paginación).
-  - **`tests/` o archivos `.spec.ts`**: Pruebas unitarias de componentes principales
+  - **`tests/` o archivos `.spec.ts`**: Pruebas unitarias de componentes y funcionalidades relevantes para garantizar la calidad del código.
   - **`views/`**: Vistas principales (`HomeView.vue`, `PokemonDetailView.vue`).
